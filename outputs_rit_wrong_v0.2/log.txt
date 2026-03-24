@@ -1,0 +1,257 @@
+(rit-oo-science) jiangzixi@jiangzixideMacBook-Air rit % python rit_v0.2.py --csv AI_workload.csv --epochs 60 --hidden 64 --layers 1 --lr 1e-3 --out outputs
+Device: cpu
+Loaded 457 data points from AI_workload.csv
+Generated 217 windows, train=173, test=44
+Grid search over 108 combinations (epochs=15 each).
+[Grid 1/108] lam1=0.5, lam2=0.0, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.023686, val pre-mse avg = 0.143558
+[Grid 2/108] lam1=0.5, lam2=0.0, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.023686, val pre-mse avg = 0.000036
+[Grid 3/108] lam1=0.5, lam2=0.0, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.023686, val pre-mse avg = 0.000019
+[Grid 4/108] lam1=0.5, lam2=0.0, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021582, val pre-mse avg = 0.101013
+[Grid 5/108] lam1=0.5, lam2=0.0, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.023519, val pre-mse avg = 0.000957
+[Grid 6/108] lam1=0.5, lam2=0.0, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.023773, val pre-mse avg = 0.000148
+[Grid 7/108] lam1=0.5, lam2=0.0, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021604, val pre-mse avg = 0.033521
+[Grid 8/108] lam1=0.5, lam2=0.0, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.023002, val pre-mse avg = 0.002194
+[Grid 9/108] lam1=0.5, lam2=0.0, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.023705, val pre-mse avg = 0.000291
+[Grid 10/108] lam1=0.5, lam2=0.0, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021667, val pre-mse avg = 0.014294
+[Grid 11/108] lam1=0.5, lam2=0.0, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.022249, val pre-mse avg = 0.003408
+[Grid 12/108] lam1=0.5, lam2=0.0, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.023368, val pre-mse avg = 0.000657
+[Grid 13/108] lam1=0.5, lam2=0.2, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.023790, val pre-mse avg = 0.143558
+[Grid 14/108] lam1=0.5, lam2=0.2, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.023790, val pre-mse avg = 0.000029
+[Grid 15/108] lam1=0.5, lam2=0.2, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.023790, val pre-mse avg = 0.000023
+[Grid 16/108] lam1=0.5, lam2=0.2, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021584, val pre-mse avg = 0.112315
+[Grid 17/108] lam1=0.5, lam2=0.2, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.023621, val pre-mse avg = 0.000899
+[Grid 18/108] lam1=0.5, lam2=0.2, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.023892, val pre-mse avg = 0.000115
+[Grid 19/108] lam1=0.5, lam2=0.2, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021589, val pre-mse avg = 0.035835
+[Grid 20/108] lam1=0.5, lam2=0.2, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.023078, val pre-mse avg = 0.002240
+[Grid 21/108] lam1=0.5, lam2=0.2, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.023835, val pre-mse avg = 0.000274
+[Grid 22/108] lam1=0.5, lam2=0.2, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021644, val pre-mse avg = 0.015227
+[Grid 23/108] lam1=0.5, lam2=0.2, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.022277, val pre-mse avg = 0.003734
+[Grid 24/108] lam1=0.5, lam2=0.2, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.023527, val pre-mse avg = 0.000572
+[Grid 25/108] lam1=0.5, lam2=0.5, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.023939, val pre-mse avg = 0.143558
+[Grid 26/108] lam1=0.5, lam2=0.5, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.023939, val pre-mse avg = 0.000035
+[Grid 27/108] lam1=0.5, lam2=0.5, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.023939, val pre-mse avg = 0.000030
+[Grid 28/108] lam1=0.5, lam2=0.5, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021587, val pre-mse avg = 0.129657
+[Grid 29/108] lam1=0.5, lam2=0.5, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.023737, val pre-mse avg = 0.001003
+[Grid 30/108] lam1=0.5, lam2=0.5, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.023990, val pre-mse avg = 0.000250
+[Grid 31/108] lam1=0.5, lam2=0.5, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021590, val pre-mse avg = 0.040931
+[Grid 32/108] lam1=0.5, lam2=0.5, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.023216, val pre-mse avg = 0.002278
+[Grid 33/108] lam1=0.5, lam2=0.5, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.023937, val pre-mse avg = 0.000330
+[Grid 34/108] lam1=0.5, lam2=0.5, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021643, val pre-mse avg = 0.016943
+[Grid 35/108] lam1=0.5, lam2=0.5, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.022417, val pre-mse avg = 0.003596
+[Grid 36/108] lam1=0.5, lam2=0.5, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.023599, val pre-mse avg = 0.000643
+[Grid 37/108] lam1=1.0, lam2=0.0, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.022288, val pre-mse avg = 0.143558
+[Grid 38/108] lam1=1.0, lam2=0.0, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.022288, val pre-mse avg = 0.000029
+[Grid 39/108] lam1=1.0, lam2=0.0, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.022288, val pre-mse avg = 0.000026
+[Grid 40/108] lam1=1.0, lam2=0.0, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021603, val pre-mse avg = 0.032672
+[Grid 41/108] lam1=1.0, lam2=0.0, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.022270, val pre-mse avg = 0.000306
+[Grid 42/108] lam1=1.0, lam2=0.0, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.022353, val pre-mse avg = 0.000048
+[Grid 43/108] lam1=1.0, lam2=0.0, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021656, val pre-mse avg = 0.013973
+[Grid 44/108] lam1=1.0, lam2=0.0, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.022157, val pre-mse avg = 0.000666
+[Grid 45/108] lam1=1.0, lam2=0.0, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.022359, val pre-mse avg = 0.000142
+[Grid 46/108] lam1=1.0, lam2=0.0, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021647, val pre-mse avg = 0.006873
+[Grid 47/108] lam1=1.0, lam2=0.0, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.021910, val pre-mse avg = 0.001319
+[Grid 48/108] lam1=1.0, lam2=0.0, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.022400, val pre-mse avg = 0.000273
+[Grid 49/108] lam1=1.0, lam2=0.2, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.022321, val pre-mse avg = 0.143558
+[Grid 50/108] lam1=1.0, lam2=0.2, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.022321, val pre-mse avg = 0.000026
+[Grid 51/108] lam1=1.0, lam2=0.2, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.022321, val pre-mse avg = 0.000018
+[Grid 52/108] lam1=1.0, lam2=0.2, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021592, val pre-mse avg = 0.037506
+[Grid 53/108] lam1=1.0, lam2=0.2, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.022312, val pre-mse avg = 0.000261
+[Grid 54/108] lam1=1.0, lam2=0.2, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.022398, val pre-mse avg = 0.000058
+[Grid 55/108] lam1=1.0, lam2=0.2, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021620, val pre-mse avg = 0.015649
+[Grid 56/108] lam1=1.0, lam2=0.2, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.022222, val pre-mse avg = 0.000601
+[Grid 57/108] lam1=1.0, lam2=0.2, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.022437, val pre-mse avg = 0.000092
+[Grid 58/108] lam1=1.0, lam2=0.2, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021663, val pre-mse avg = 0.007457
+[Grid 59/108] lam1=1.0, lam2=0.2, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.021961, val pre-mse avg = 0.001370
+[Grid 60/108] lam1=1.0, lam2=0.2, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.022420, val pre-mse avg = 0.000246
+[Grid 61/108] lam1=1.0, lam2=0.5, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.022383, val pre-mse avg = 0.143558
+[Grid 62/108] lam1=1.0, lam2=0.5, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.022383, val pre-mse avg = 0.000042
+[Grid 63/108] lam1=1.0, lam2=0.5, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.022383, val pre-mse avg = 0.000087
+[Grid 64/108] lam1=1.0, lam2=0.5, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021584, val pre-mse avg = 0.041883
+[Grid 65/108] lam1=1.0, lam2=0.5, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.022371, val pre-mse avg = 0.000337
+[Grid 66/108] lam1=1.0, lam2=0.5, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.022479, val pre-mse avg = 0.000037
+[Grid 67/108] lam1=1.0, lam2=0.5, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021614, val pre-mse avg = 0.018364
+[Grid 68/108] lam1=1.0, lam2=0.5, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.022256, val pre-mse avg = 0.000799
+[Grid 69/108] lam1=1.0, lam2=0.5, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.022521, val pre-mse avg = 0.000112
+[Grid 70/108] lam1=1.0, lam2=0.5, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021663, val pre-mse avg = 0.008794
+[Grid 71/108] lam1=1.0, lam2=0.5, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.022023, val pre-mse avg = 0.001485
+[Grid 72/108] lam1=1.0, lam2=0.5, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.022531, val pre-mse avg = 0.000246
+[Grid 73/108] lam1=2.0, lam2=0.0, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.024020, val pre-mse avg = 0.143558
+[Grid 74/108] lam1=2.0, lam2=0.0, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.024020, val pre-mse avg = 0.000030
+[Grid 75/108] lam1=2.0, lam2=0.0, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.024020, val pre-mse avg = 0.000051
+[Grid 76/108] lam1=2.0, lam2=0.0, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021626, val pre-mse avg = 0.088701
+[Grid 77/108] lam1=2.0, lam2=0.0, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.023254, val pre-mse avg = 0.000287
+[Grid 78/108] lam1=2.0, lam2=0.0, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.023396, val pre-mse avg = 0.000034
+[Grid 79/108] lam1=2.0, lam2=0.0, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021657, val pre-mse avg = 0.018598
+[Grid 80/108] lam1=2.0, lam2=0.0, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.022569, val pre-mse avg = 0.000704
+[Grid 81/108] lam1=2.0, lam2=0.0, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.022872, val pre-mse avg = 0.000134
+[Grid 82/108] lam1=2.0, lam2=0.0, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021645, val pre-mse avg = 0.004020
+[Grid 83/108] lam1=2.0, lam2=0.0, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.022000, val pre-mse avg = 0.000518
+[Grid 84/108] lam1=2.0, lam2=0.0, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.022341, val pre-mse avg = 0.000085
+[Grid 85/108] lam1=2.0, lam2=0.2, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.023760, val pre-mse avg = 0.143558
+[Grid 86/108] lam1=2.0, lam2=0.2, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.023760, val pre-mse avg = 0.000068
+[Grid 87/108] lam1=2.0, lam2=0.2, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.023760, val pre-mse avg = 0.000110
+[Grid 88/108] lam1=2.0, lam2=0.2, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021613, val pre-mse avg = 0.078752
+[Grid 89/108] lam1=2.0, lam2=0.2, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.023089, val pre-mse avg = 0.000247
+[Grid 90/108] lam1=2.0, lam2=0.2, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.023218, val pre-mse avg = 0.000028
+[Grid 91/108] lam1=2.0, lam2=0.2, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021623, val pre-mse avg = 0.017526
+[Grid 92/108] lam1=2.0, lam2=0.2, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.022540, val pre-mse avg = 0.000449
+[Grid 93/108] lam1=2.0, lam2=0.2, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.022799, val pre-mse avg = 0.000045
+[Grid 94/108] lam1=2.0, lam2=0.2, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021594, val pre-mse avg = 0.003384
+[Grid 95/108] lam1=2.0, lam2=0.2, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.021961, val pre-mse avg = 0.000560
+[Grid 96/108] lam1=2.0, lam2=0.2, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.022235, val pre-mse avg = 0.000103
+[Grid 97/108] lam1=2.0, lam2=0.5, lam3=0.0, mu=0.0
+  -> val post-calib avg = 0.023431, val pre-mse avg = 0.143558
+[Grid 98/108] lam1=2.0, lam2=0.5, lam3=0.0, mu=0.2
+  -> val post-calib avg = 0.023431, val pre-mse avg = 0.000031
+[Grid 99/108] lam1=2.0, lam2=0.5, lam3=0.0, mu=0.5
+  -> val post-calib avg = 0.023431, val pre-mse avg = 0.000024
+[Grid 100/108] lam1=2.0, lam2=0.5, lam3=0.5, mu=0.0
+  -> val post-calib avg = 0.021605, val pre-mse avg = 0.069358
+[Grid 101/108] lam1=2.0, lam2=0.5, lam3=0.5, mu=0.2
+  -> val post-calib avg = 0.022918, val pre-mse avg = 0.000139
+[Grid 102/108] lam1=2.0, lam2=0.5, lam3=0.5, mu=0.5
+  -> val post-calib avg = 0.022987, val pre-mse avg = 0.000050
+[Grid 103/108] lam1=2.0, lam2=0.5, lam3=1.0, mu=0.0
+  -> val post-calib avg = 0.021605, val pre-mse avg = 0.014997
+[Grid 104/108] lam1=2.0, lam2=0.5, lam3=1.0, mu=0.2
+  -> val post-calib avg = 0.022433, val pre-mse avg = 0.000385
+[Grid 105/108] lam1=2.0, lam2=0.5, lam3=1.0, mu=0.5
+  -> val post-calib avg = 0.022662, val pre-mse avg = 0.000051
+[Grid 106/108] lam1=2.0, lam2=0.5, lam3=2.0, mu=0.0
+  -> val post-calib avg = 0.021692, val pre-mse avg = 0.003665
+[Grid 107/108] lam1=2.0, lam2=0.5, lam3=2.0, mu=0.2
+  -> val post-calib avg = 0.021942, val pre-mse avg = 0.000548
+[Grid 108/108] lam1=2.0, lam2=0.5, lam3=2.0, mu=0.5
+  -> val post-calib avg = 0.022208, val pre-mse avg = 0.000103
+Best grid params: lambda1,lambda2,lambda3,mu = (0.5, 0.0, 0.5, 0.0) with val post-calib avg=0.021582
+Re-training best config on full train set for final model ...
+[full train ep 1/60] train loss avg = 0.02317128
+[full train ep 6/60] train loss avg = 0.02269075
+[full train ep 12/60] train loss avg = 0.02268125
+[full train ep 18/60] train loss avg = 0.02268082
+[full train ep 24/60] train loss avg = 0.02267279
+[full train ep 30/60] train loss avg = 0.02268179
+[full train ep 36/60] train loss avg = 0.02266791
+[full train ep 42/60] train loss avg = 0.02266949
+[full train ep 48/60] train loss avg = 0.02266836
+[full train ep 54/60] train loss avg = 0.02267735
+[full train ep 60/60] train loss avg = 0.02266726
+E2E (post-calibrated) Test avg loss (mapped back) = 57960.579563
+[ML-only train ep 1/60] avg pre-mse = 0.04623878
+[ML-only train ep 6/60] avg pre-mse = 0.00092675
+[ML-only train ep 12/60] avg pre-mse = 0.00059546
+[ML-only train ep 18/60] avg pre-mse = 0.00045511
+[ML-only train ep 24/60] avg pre-mse = 0.00033840
+[ML-only train ep 30/60] avg pre-mse = 0.00028483
+[ML-only train ep 36/60] avg pre-mse = 0.00027796
+[ML-only train ep 42/60] avg pre-mse = 0.00023973
+[ML-only train ep 48/60] avg pre-mse = 0.00027731
+[ML-only train ep 54/60] avg pre-mse = 0.00023397
+[ML-only train ep 60/60] avg pre-mse = 0.00023726
+ML-only Test avg loss (mapped back) = 72211.080612
+R-OBD Test avg loss = 59801.255488
+MLA-ROBD(post) theta=0.0 avg=59801.255488 worst=107277.731654
+MLA-ROBD(post) theta=0.5 avg=59970.153344 worst=107935.089290
+MLA-ROBD(post) theta=1.0 avg=60216.771084 worst=108679.448289
+MLA-ROBD(post) theta=2.0 avg=60819.032744 worst=110250.824468
+MLA-ROBD(post) theta=5.0 avg=62667.866524 worst=114526.091530
+/Users/jiangzixi/Downloads/rit/rit_v0.2.py:453: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  plt.boxplot([robd_losses, ml_losses, e2e_losses], labels=["R-OBD", "ML-only", "E2E"])
+Saved results and plots to outputs
+Done.

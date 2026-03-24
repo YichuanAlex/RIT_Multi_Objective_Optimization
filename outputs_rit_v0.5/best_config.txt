@@ -1,0 +1,3 @@
+best_combo: lambda1,lambda2,lambda3,mu = (1.0, 0.0, 3.0, 0.3)
+best_val_post_avg = 0.021856475922772112
+best_combo_dir = outputs/grid_l1=1.0_l2=0.0_l3=3.0_mu=0.3

@@ -1,0 +1,61 @@
+
+lr=0.001, hidden=16, layers=2, val_loss=0.022147 | 43905.151090
+lr=0.001, hidden=16, layers=3, val_loss=0.022493 | 44592.163900
+lr=0.001, hidden=32, layers=2, val_loss=0.022138 | 43886.969355
+lr=0.001, hidden=32, layers=3, val_loss=0.022258 | 44126.532873
+lr=0.001, hidden=64, layers=2, val_loss=0.022176 | 43962.426395
+lr=0.001, hidden=64, layers=3, val_loss=0.022224 | 44059.193585
+lr=0.001, hidden=128, layers=2, val_loss=0.022209 | 44028.070170
+lr=0.001, hidden=128, layers=3, val_loss=0.022246 | 44101.568543
+lr=0.01, hidden=16, layers=2, val_loss=0.022135 | 43881.124253
+lr=0.01, hidden=16, layers=3, val_loss=0.022171 | 43953.312883
+lr=0.01, hidden=32, layers=2, val_loss=0.022133 | 43878.543107
+lr=0.01, hidden=32, layers=3, val_loss=0.022239 | 44087.377778
+lr=0.01, hidden=64, layers=2, val_loss=0.022243 | 44096.372311
+lr=0.01, hidden=64, layers=3, val_loss=0.022282 | 44174.190840
+lr=0.01, hidden=128, layers=2, val_loss=0.022201 | 44013.620052
+lr=0.01, hidden=128, layers=3, val_loss=0.022201 | 44012.684894
+lr=0.02, hidden=16, layers=2, val_loss=0.022236 | 44081.683421
+lr=0.02, hidden=16, layers=3, val_loss=0.022348 | 44304.195419
+lr=0.02, hidden=32, layers=2, val_loss=0.022151 | 43914.223820
+lr=0.02, hidden=32, layers=3, val_loss=0.022417 | 44440.868449
+lr=0.02, hidden=64, layers=2, val_loss=0.022291 | 44190.260066
+lr=0.02, hidden=64, layers=3, val_loss=0.022264 | 44138.117133
+lr=0.02, hidden=128, layers=2, val_loss=0.022042 | 43698.219371
+lr=0.02, hidden=128, layers=3, val_loss=0.022748 | 45097.603618
+lr=0.0001, hidden=128, layers=2, dropout=0.0, wd=0.0, val_avg=0.022279 | 44167.615683, val_worst=0.039770 | 78842.201233
+lr=0.0001, hidden=128, layers=2, dropout=0.0, wd=0.0001, val_avg=0.022235 | 44079.362116, val_worst=0.039762 | 78827.415955
+lr=0.0001, hidden=128, layers=2, dropout=0.0, wd=0.001, val_avg=0.022057 | 43727.368208, val_worst=0.039342 | 77994.861511
+lr=0.0001, hidden=128, layers=2, dropout=0.2, wd=0.0, val_avg=0.022047 | 43708.321693, val_worst=0.039366 | 78042.045898
+lr=0.0001, hidden=128, layers=2, dropout=0.2, wd=0.0001, val_avg=0.022036 | 43685.716299, val_worst=0.039279 | 77869.201416
+lr=0.0001, hidden=128, layers=2, dropout=0.2, wd=0.001, val_avg=0.022163 | 43936.484931, val_worst=0.039190 | 77692.058716
+lr=0.0001, hidden=128, layers=2, dropout=0.5, wd=0.0, val_avg=0.022026 | 43666.626558, val_worst=0.039326 | 77962.875977
+lr=0.0001, hidden=128, layers=2, dropout=0.5, wd=0.0001, val_avg=0.022089 | 43790.832736, val_worst=0.039340 | 77989.728760
+lr=0.0001, hidden=128, layers=2, dropout=0.5, wd=0.001, val_avg=0.022521 | 44646.542394, val_worst=0.039805 | 78911.703857
+lr=0.001, hidden=128, layers=2, dropout=0.0, wd=0.0, val_avg=0.022261 | 44132.549140, val_worst=0.039747 | 78796.087708
+lr=0.001, hidden=128, layers=2, dropout=0.0, wd=0.0001, val_avg=0.022322 | 44253.428315, val_worst=0.039911 | 79122.626709
+lr=0.001, hidden=128, layers=2, dropout=0.0, wd=0.001, val_avg=0.022368 | 44343.408457, val_worst=0.039934 | 79168.356201
+lr=0.001, hidden=128, layers=2, dropout=0.2, wd=0.0, val_avg=0.022174 | 43959.031731, val_worst=0.039540 | 78386.604919
+lr=0.001, hidden=128, layers=2, dropout=0.2, wd=0.0001, val_avg=0.022364 | 44335.513675, val_worst=0.039822 | 78946.436707
+lr=0.001, hidden=128, layers=2, dropout=0.2, wd=0.001, val_avg=0.022262 | 44133.020167, val_worst=0.039478 | 78263.315491
+lr=0.001, hidden=128, layers=2, dropout=0.5, wd=0.0, val_avg=0.022270 | 44149.409729, val_worst=0.039697 | 78697.679199
+lr=0.001, hidden=128, layers=2, dropout=0.5, wd=0.0001, val_avg=0.022148 | 43906.621842, val_worst=0.039414 | 78136.126648
+lr=0.001, hidden=128, layers=2, dropout=0.5, wd=0.001, val_avg=0.022167 | 43944.592799, val_worst=0.039200 | 77712.582336
+lr=0.01, hidden=128, layers=2, dropout=0.0, wd=0.0, val_avg=0.022300 | 44209.064715, val_worst=0.039821 | 78944.494385
+lr=0.01, hidden=128, layers=2, dropout=0.0, wd=0.0001, val_avg=0.022455 | 44515.514522, val_worst=0.040081 | 79458.153564
+lr=0.01, hidden=128, layers=2, dropout=0.0, wd=0.001, val_avg=0.022557 | 44719.042237, val_worst=0.040215 | 79724.694763
+lr=0.01, hidden=128, layers=2, dropout=0.2, wd=0.0, val_avg=0.022130 | 43872.720540, val_worst=0.039517 | 78340.949280
+lr=0.01, hidden=128, layers=2, dropout=0.2, wd=0.0001, val_avg=0.023203 | 45999.925795, val_worst=0.040021 | 79340.469543
+lr=0.01, hidden=128, layers=2, dropout=0.2, wd=0.001, val_avg=0.023281 | 46153.924359, val_worst=0.040132 | 79559.353699
+lr=0.01, hidden=128, layers=2, dropout=0.5, wd=0.0, val_avg=0.022051 | 43715.706729, val_worst=0.039286 | 77883.964539
+lr=0.01, hidden=128, layers=2, dropout=0.5, wd=0.0001, val_avg=0.026970 | 53467.753465, val_worst=0.043954 | 87137.791077
+lr=0.01, hidden=128, layers=2, dropout=0.5, wd=0.001, val_avg=0.022701 | 45004.240487, val_worst=0.040049 | 79395.644775
+lr=0.05, hidden=128, layers=2, dropout=0.0, wd=0.0, val_avg=0.022245 | 44100.142374, val_worst=0.039682 | 78668.559143
+lr=0.05, hidden=128, layers=2, dropout=0.0, wd=0.0001, val_avg=0.123041 | 243923.483298, val_worst=0.184150 | 365070.441162
+lr=0.05, hidden=128, layers=2, dropout=0.0, wd=0.001, val_avg=0.106674 | 211478.207451, val_worst=0.155056 | 307393.528320
+lr=0.05, hidden=128, layers=2, dropout=0.2, wd=0.0, val_avg=0.021715 | 43048.660713, val_worst=0.038798 | 76915.292480
+lr=0.05, hidden=128, layers=2, dropout=0.2, wd=0.0001, val_avg=0.023485 | 46557.481295, val_worst=0.040640 | 80567.108521
+--------------
+lr=0.0001, hidden=128, layers=2, dropout=0.2, wd=0.0, val_avg=0.022320 | 44248.747856, val_worst=0.039784 | 78870.191345
+lr=0.0001, hidden=128, layers=2, dropout=0.2, wd=0.0001, val_avg=0.022123 | 43857.201460, val_worst=0.039429 | 78167.484436
+

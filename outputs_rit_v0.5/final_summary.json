@@ -1,0 +1,18 @@
+{
+  "best_combo": {
+    "lambda1": 1.0,
+    "lambda2": 0.0,
+    "lambda3": 3.0,
+    "mu": 0.3
+  },
+  "best_val_post_avg": 0.021856475922772112,
+  "e2e_test_avg_mapped": 58825.16809082031,
+  "ml_test_avg_mapped": 76117.8974685669,
+  "robd_test_avg_mapped": 59801.25548825828,
+  "final_dir": "outputs/best_final_l1=1.0_l2=0.0_l3=3.0_mu=0.3",
+  "summary_csv": "outputs/summary.csv",
+  "mla_tradeoff_csv": "outputs/mla_tradeoff.csv",
+  "mla_tradeoff_png": "outputs/mla_tradeoff.png",
+  "objective_hist": "outputs/objective_hist.png",
+  "objective_box": "outputs/objective_box.png"
+}

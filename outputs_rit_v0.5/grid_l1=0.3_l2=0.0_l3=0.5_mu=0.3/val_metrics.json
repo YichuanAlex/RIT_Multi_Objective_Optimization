@@ -1,0 +1,7 @@
+{
+  "val_post_avg": 0.024551924153724137,
+  "val_pre_avg": 0.00029447421590756513,
+  "best_epoch": 1,
+  "epochs_ran": 6,
+  "runtime_seconds": 149.43353915214539
+}
